@@ -272,3 +272,9 @@ console.log(Number.parseInt('e23', 10));
 
 console.log(Number.parseFloat(' 2.3rem '));
 console.log(Number.parseFloat('2.8em'));
+
+// // Check if value is NaN
+console.log(Number.isNaN(20));
+console.log(Number.isNaN('20'));
+console.log(Number.isNaN(+'20X'));
+console.log(Number.isNaN(23 / 0));
