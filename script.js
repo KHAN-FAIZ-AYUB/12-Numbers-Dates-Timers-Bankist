@@ -300,3 +300,7 @@ console.log(Number.isInteger(23 / 0));
 console.log(Math.sqrt(25));
 console.log(25 ** (1 / 2));
 console.log(8 ** (1 / 3));
+
+console.log(Math.max(5, 10, 18, 23, 15, 12));
+console.log(Math.max(5, 10, 18, '23', 11, 2));
+console.log(Math.max(5, 10, '23px', 15, 20));
