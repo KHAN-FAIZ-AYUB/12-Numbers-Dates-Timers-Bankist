@@ -342,6 +342,7 @@ console.log((2.354).toFixed(2));
 console.log(+(2.465).toFixed(2));
 */
 
+/*
 ///////////////////////////////////////
 // The Remainder Operator
 console.log(5 % 2);
@@ -365,7 +366,29 @@ labelBalance.addEventListener('click', function () {
   [...document.querySelectorAll('.movements__row')].forEach(function (row, i) {
     // 0,2,4,6
     if (i % 2 === 0) row.style.backgroundColor = 'orangered';
+
     // 0,3,6,9
     if (i % 3 === 0) row.style.backgroundColor = 'yellow';
   });
 });
+*/
+
+///////////////////////////////////////
+// Numeric Separators
+
+// 287,460,000,000
+const diameter = 287_460_000_000;
+console.log(diameter);
+
+const price = 345_99;
+console.log(price);
+
+const transferFee1 = 15_004;
+const transferFee2 = 1_500;
+console.log(transferFee1, transferFee2);
+
+const PI = 3.1415;
+console.log(PI);
+
+console.log(+'230_000');
+console.log(parseInt('230_000'));
