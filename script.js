@@ -126,7 +126,7 @@ const calcDisplaySummary = function (acc) {
       return int >= 1;
     })
     .reduce((acc, int) => acc + int, 0);
-  labelSumInterest.textContent = `${interest.toFixed(2) }€`;
+  labelSumInterest.textContent = `${interest.toFixed(2)}€`;
 };
 
 const createUsernames = function (accs) {
@@ -294,6 +294,7 @@ console.log(Number.isInteger('23.0'));
 console.log(Number.isInteger(23 / 0));
 */
 
+/*
 ///////////////////////////////////////
 // Math and Rounding
 
@@ -339,3 +340,23 @@ console.log((2.3).toFixed(0));
 console.log((2.7).toFixed(3));
 console.log((2.354).toFixed(2));
 console.log(+(2.465).toFixed(2));
+*/
+
+///////////////////////////////////////
+// The Remainder Operator
+console.log(5 % 2);
+console.log(5 / 2); //  5 = 2 * 2 + 1
+
+console.log(8 % 3);
+console.log(8 / 3); //  8 = 2 * 3 + 2
+
+console.log(6 % 2);
+console.log(6 / 2);
+
+console.log(7 % 2);
+console.log(7 / 2);
+
+const isEven = n => n % 2 === 0;
+console.log(isEven(8));
+console.log(isEven(23));
+console.log(isEven(524));
