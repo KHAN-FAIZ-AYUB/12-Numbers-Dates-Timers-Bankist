@@ -252,6 +252,7 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 // LECTURES
 
+/*
 ///////////////////////////////////////
 // Converting and Checking Numbers
 
@@ -272,7 +273,9 @@ console.log(Number.parseInt('e23', 10));
 
 console.log(Number.parseFloat(' 2.3rem '));
 console.log(Number.parseFloat('2.8em'));
+*/
 
+/*
 // // Check if value is NaN
 console.log(Number.isNaN(20));
 console.log(Number.isNaN('20'));
@@ -285,4 +288,15 @@ console.log(Number.isFinite('20'));
 console.log(Number.isFinite(+'20X'));
 console.log(Number.isFinite(20 / 0));
 
+//
+console.log(Number.isInteger(23));
+console.log(Number.isInteger('23.0'));
+console.log(Number.isInteger(23 / 0));
+*/
 
+///////////////////////////////////////
+// Math and Rounding
+
+console.log(Math.sqrt(25));
+console.log(25 ** (1 / 2));
+console.log(8 ** (1 / 3));
