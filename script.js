@@ -408,3 +408,12 @@ console.log(2 ** 53 + 5);
 
 console.log(161151598489120325671656448498n);
 console.log(BigInt(161151598489120325671656448498n));
+
+// Operations
+console.log(10000n + 10000n);
+console.log(3216514845116515121822151561n * 10000000n);
+// console.log(Math.sqrt(16n));
+
+const huge = 20289830237283728378237n;
+const num = 23;
+console.log(huge * BigInt(num));
