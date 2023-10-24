@@ -417,3 +417,11 @@ console.log(3216514845116515121822151561n * 10000000n);
 const huge = 20289830237283728378237n;
 const num = 23;
 console.log(huge * BigInt(num));
+
+// Exceptions
+console.log(20n > 15);
+console.log(20n === 20);
+console.log(typeof 20n);
+console.log(20n == '20');
+
+console.log(huge + 'is REALLY big!!!');
