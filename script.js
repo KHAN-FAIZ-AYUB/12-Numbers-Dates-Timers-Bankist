@@ -373,6 +373,7 @@ labelBalance.addEventListener('click', function () {
 });
 */
 
+/*
 ///////////////////////////////////////
 // Numeric Separators
 
@@ -392,3 +393,18 @@ console.log(PI);
 
 console.log(+'230_000');
 console.log(parseInt('230_000'));
+*/
+
+///////////////////////////////////////
+// Working with BigInt
+
+console.log(2 ** 53 - 1);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(2 ** 53 + 1);
+console.log(2 ** 53 + 2);
+console.log(2 ** 53 + 3);
+console.log(2 ** 53 + 4);
+console.log(2 ** 53 + 5);
+
+console.log(161151598489120325671656448498n);
+console.log(BigInt(161151598489120325671656448498n));
