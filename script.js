@@ -306,3 +306,5 @@ console.log(Math.max(5, 10, 18, '23', 11, 2));
 console.log(Math.max(5, 10, '23px', 15, 20));
 
 console.log(Math.min(5, 10, 15, 20, 18));
+
+console.log(Math.PI * Number.parseFloat('10px') ** 2);
